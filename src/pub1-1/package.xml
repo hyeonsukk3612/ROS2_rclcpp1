@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">  <!-- format 속성 추가 -->
+  <name>pub1-1</name>
+  <version>0.0.0</version>
+  <description>정수 퍼블리셔 패키지</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>Apache License 2.0</license>
+
+  <!-- 의존성 명시 -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+
+  <!-- 빌드 툴 의존성 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+</package>
+
