@@ -18,4 +18,8 @@
 
  예제 1 번과 같이 실행 결과를 확인하라
 
+실행 영상
+
+https://youtu.be/zuULCuuHNWQ
+
 ***
