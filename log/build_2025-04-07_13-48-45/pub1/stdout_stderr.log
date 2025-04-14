@@ -1,0 +1,11 @@
+CMake Error at CMakeLists.txt:9 (if):
+  if given arguments:
+
+    "CMAKE_COMPILER_IS_GNUCXX" "OR" "CMAKE_CXX_COMPILER_ID" "MATCHES\"Clang\""
+
+  Unknown arguments specified
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/linux/ros2_ws/build/pub1/CMakeFiles/CMakeOutput.log".
+See also "/home/linux/ros2_ws/build/pub1/CMakeFiles/CMakeError.log".

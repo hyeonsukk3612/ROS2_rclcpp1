@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (pub1) JobQueued: {'identifier': 'pub1', 'dependencies': OrderedDict()}
+[0.000458] (pub1) JobStarted: {'identifier': 'pub1'}
+[0.014440] (pub1) JobProgress: {'identifier': 'pub1', 'progress': 'cmake'}
+[0.015629] (pub1) Command: {'cmd': ['/usr/bin/cmake', '/home/linux/ros2_ws/src/pub1', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/pub1'], 'cwd': '/home/linux/ros2_ws/build/pub1', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'linux'), ('ROS_NAMESPACE', 'robot1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/linux'), ('OLDPWD', '/home/linux/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/linux/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/linux/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'linux'), ('NAME', 'car-13'), ('WSL_INTEROP', '/run/WSL/567_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/linux/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/PROGRA~1/MATLAB/R2020b/runtime/win64:/mnt/c/PROGRA~1/MATLAB/R2020b/bin:/mnt/c/Program Files/MATLAB/R2020b/runtime/win64:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Elec/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Elec/.dotnet/tools:/mnt/c/opencv/build/x64/vc15/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'bef9e559-0250-4e3b-94d2-a0917713928d'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/linux/ros2_ws/build/pub1'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099206] (-) TimerEvent: {}
+[0.106281] (pub1) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.134339] (pub1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199332] (-) TimerEvent: {}
+[0.299674] (-) TimerEvent: {}
+[0.310323] (pub1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.354370] (pub1) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.399824] (-) TimerEvent: {}
+[0.500123] (-) TimerEvent: {}
+[0.564947] (pub1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.571833] (pub1) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600273] (-) TimerEvent: {}
+[0.700605] (-) TimerEvent: {}
+[0.800928] (-) TimerEvent: {}
+[0.901235] (-) TimerEvent: {}
+[1.001543] (-) TimerEvent: {}
+[1.101846] (-) TimerEvent: {}
+[1.202183] (-) TimerEvent: {}
+[1.302523] (-) TimerEvent: {}
+[1.402872] (-) TimerEvent: {}
+[1.503226] (-) TimerEvent: {}
+[1.603539] (-) TimerEvent: {}
+[1.703845] (-) TimerEvent: {}
+[1.804190] (-) TimerEvent: {}
+[1.904495] (-) TimerEvent: {}
+[2.004835] (-) TimerEvent: {}
+[2.105172] (-) TimerEvent: {}
+[2.205481] (-) TimerEvent: {}
+[2.305806] (-) TimerEvent: {}
+[2.406147] (-) TimerEvent: {}
+[2.506456] (-) TimerEvent: {}
+[2.606795] (-) TimerEvent: {}
+[2.707140] (-) TimerEvent: {}
+[2.807455] (-) TimerEvent: {}
+[2.907804] (-) TimerEvent: {}
+[3.008153] (-) TimerEvent: {}
+[3.108468] (-) TimerEvent: {}
+[3.208815] (-) TimerEvent: {}
+[3.309158] (-) TimerEvent: {}
+[3.409473] (-) TimerEvent: {}
+[3.509815] (-) TimerEvent: {}
+[3.610161] (-) TimerEvent: {}
+[3.710502] (-) TimerEvent: {}
+[3.810848] (-) TimerEvent: {}
+[3.911158] (-) TimerEvent: {}
+[4.011495] (-) TimerEvent: {}
+[4.111838] (-) TimerEvent: {}
+[4.212179] (-) TimerEvent: {}
+[4.312523] (-) TimerEvent: {}
+[4.412827] (-) TimerEvent: {}
+[4.513163] (-) TimerEvent: {}
+[4.613502] (-) TimerEvent: {}
+[4.708716] (pub1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.713676] (-) TimerEvent: {}
+[4.800128] (pub1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.803338] (pub1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.813796] (-) TimerEvent: {}
+[4.914097] (-) TimerEvent: {}
+[5.014452] (-) TimerEvent: {}
+[5.040516] (pub1) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.055487] (pub1) StdoutLine: {'line': b'-- Generating done\n'}
+[5.059579] (pub1) StdoutLine: {'line': b'-- Build files have been written to: /home/linux/ros2_ws/build/pub1\n'}
+[5.075482] (pub1) CommandEnded: {'returncode': 0}
+[5.076186] (pub1) JobProgress: {'identifier': 'pub1', 'progress': 'build'}
+[5.078523] (pub1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linux/ros2_ws/build/pub1', '--', '-j6', '-l6'], 'cwd': '/home/linux/ros2_ws/build/pub1', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'linux'), ('ROS_NAMESPACE', 'robot1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/linux'), ('OLDPWD', '/home/linux/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/linux/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/linux/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'linux'), ('NAME', 'car-13'), ('WSL_INTEROP', '/run/WSL/567_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/linux/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/PROGRA~1/MATLAB/R2020b/runtime/win64:/mnt/c/PROGRA~1/MATLAB/R2020b/bin:/mnt/c/Program Files/MATLAB/R2020b/runtime/win64:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Elec/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Elec/.dotnet/tools:/mnt/c/opencv/build/x64/vc15/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'bef9e559-0250-4e3b-94d2-a0917713928d'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/linux/ros2_ws/build/pub1'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.114642] (-) TimerEvent: {}
+[5.119710] (pub1) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub1\x1b[0m\n'}
+[5.214766] (-) TimerEvent: {}
+[5.260419] (pub1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub1.dir/src/pub1.cpp.o\x1b[0m\n'}
+[5.315042] (-) TimerEvent: {}
+[5.415446] (-) TimerEvent: {}
+[5.515836] (-) TimerEvent: {}
+[5.616219] (-) TimerEvent: {}
+[5.716578] (-) TimerEvent: {}
+[5.816953] (-) TimerEvent: {}
+[5.917309] (-) TimerEvent: {}
+[6.017682] (-) TimerEvent: {}
+[6.118048] (-) TimerEvent: {}
+[6.218433] (-) TimerEvent: {}
+[6.318797] (-) TimerEvent: {}
+[6.419166] (-) TimerEvent: {}
+[6.519572] (-) TimerEvent: {}
+[6.619906] (-) TimerEvent: {}
+[6.720283] (-) TimerEvent: {}
+[6.820655] (-) TimerEvent: {}
+[6.921031] (-) TimerEvent: {}
+[7.021393] (-) TimerEvent: {}
+[7.121809] (-) TimerEvent: {}
+[7.222187] (-) TimerEvent: {}
+[7.322541] (-) TimerEvent: {}
+[7.422908] (-) TimerEvent: {}
+[7.523286] (-) TimerEvent: {}
+[7.623672] (-) TimerEvent: {}
+[7.724048] (-) TimerEvent: {}
+[7.824427] (-) TimerEvent: {}
+[7.924793] (-) TimerEvent: {}
+[8.025144] (-) TimerEvent: {}
+[8.125492] (-) TimerEvent: {}
+[8.225854] (-) TimerEvent: {}
+[8.326276] (-) TimerEvent: {}
+[8.344294] (pub1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub1\x1b[0m\n'}
+[8.426394] (-) TimerEvent: {}
+[8.526761] (-) TimerEvent: {}
+[8.627189] (-) TimerEvent: {}
+[8.649750] (pub1) StdoutLine: {'line': b'[100%] Built target pub1\n'}
+[8.661888] (pub1) CommandEnded: {'returncode': 0}
+[8.662815] (pub1) JobProgress: {'identifier': 'pub1', 'progress': 'install'}
+[8.675449] (pub1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/linux/ros2_ws/build/pub1'], 'cwd': '/home/linux/ros2_ws/build/pub1', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'linux'), ('ROS_NAMESPACE', 'robot1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/linux'), ('OLDPWD', '/home/linux/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/linux/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/linux/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'linux'), ('NAME', 'car-13'), ('WSL_INTEROP', '/run/WSL/567_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/linux/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/PROGRA~1/MATLAB/R2020b/runtime/win64:/mnt/c/PROGRA~1/MATLAB/R2020b/bin:/mnt/c/Program Files/MATLAB/R2020b/runtime/win64:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Elec/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Elec/.dotnet/tools:/mnt/c/opencv/build/x64/vc15/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'bef9e559-0250-4e3b-94d2-a0917713928d'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/linux/ros2_ws/build/pub1'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.683721] (pub1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.684118] (pub1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.685444] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/lib/pub1/pub1\n'}
+[8.696300] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/ament_index/resource_index/package_run_dependencies/pub1\n'}
+[8.706435] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/ament_index/resource_index/parent_prefix_path/pub1\n'}
+[8.716717] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/environment/ament_prefix_path.sh\n'}
+[8.726345] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/environment/ament_prefix_path.dsv\n'}
+[8.727312] (-) TimerEvent: {}
+[8.736459] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/environment/path.sh\n'}
+[8.745477] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/environment/path.dsv\n'}
+[8.754426] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/local_setup.bash\n'}
+[8.764190] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/local_setup.sh\n'}
+[8.773268] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/local_setup.zsh\n'}
+[8.782530] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/local_setup.dsv\n'}
+[8.791582] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/package.dsv\n'}
+[8.800746] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/ament_index/resource_index/packages/pub1\n'}
+[8.810060] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/cmake/pub1Config.cmake\n'}
+[8.819152] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/cmake/pub1Config-version.cmake\n'}
+[8.827464] (-) TimerEvent: {}
+[8.827983] (pub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/pub1/share/pub1/package.xml\n'}
+[8.839405] (pub1) CommandEnded: {'returncode': 0}
+[8.878575] (pub1) JobEnded: {'identifier': 'pub1', 'rc': 0}
+[8.879521] (-) EventReactorShutdown: {}

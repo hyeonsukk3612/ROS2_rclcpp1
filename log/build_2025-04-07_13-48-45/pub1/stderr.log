@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:9 (if):
+  if given arguments:
+
+    "CMAKE_COMPILER_IS_GNUCXX" "OR" "CMAKE_CXX_COMPILER_ID" "MATCHES\"Clang\""
+
+  Unknown arguments specified
+
+

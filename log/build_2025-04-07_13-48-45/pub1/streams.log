@@ -1,0 +1,13 @@
+[0.020s] Invoking command in '/home/linux/ros2_ws/build/pub1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/linux/ros2_ws/src/pub1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/pub1
+[0.100s] CMake Error at CMakeLists.txt:9 (if):
+[0.100s]   if given arguments:
+[0.100s] 
+[0.100s]     "CMAKE_COMPILER_IS_GNUCXX" "OR" "CMAKE_CXX_COMPILER_ID" "MATCHES\"Clang\""
+[0.100s] 
+[0.100s]   Unknown arguments specified
+[0.100s] 
+[0.100s] 
+[0.100s] -- Configuring incomplete, errors occurred!
+[0.101s] See also "/home/linux/ros2_ws/build/pub1/CMakeFiles/CMakeOutput.log".
+[0.101s] See also "/home/linux/ros2_ws/build/pub1/CMakeFiles/CMakeError.log".
+[0.113s] Invoked command in '/home/linux/ros2_ws/build/pub1' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/linux/ros2_ws/src/pub1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/pub1

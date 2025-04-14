@@ -1,0 +1,28 @@
+[0.018s] Invoking command in '/home/linux/ros2_ws/build/psub1-1': CMAKE_PREFIX_PATH=/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/psub1 /usr/bin/cmake --build /home/linux/ros2_ws/build/psub1-1 -- -j6 -l6
+[0.062s] [35m[1mScanning dependencies of target pub[0m
+[0.085s] [ 50%] Built target sub
+[0.093s] [ 75%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[2.973s] [100%] [32m[1mLinking CXX executable pub[0m
+[3.243s] [100%] Built target pub
+[3.255s] Invoked command in '/home/linux/ros2_ws/build/psub1-1' returned '0': CMAKE_PREFIX_PATH=/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/psub1 /usr/bin/cmake --build /home/linux/ros2_ws/build/psub1-1 -- -j6 -l6
+[3.269s] Invoking command in '/home/linux/ros2_ws/build/psub1-1': CMAKE_PREFIX_PATH=/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/psub1 /usr/bin/cmake --install /home/linux/ros2_ws/build/psub1-1
+[3.276s] -- Install configuration: ""
+[3.276s] -- Execute custom install script
+[3.277s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/lib/psub1-1/pub
+[3.277s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/lib/psub1-1/sub
+[3.278s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/ament_index/resource_index/package_run_dependencies/psub1-1
+[3.278s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/ament_index/resource_index/parent_prefix_path/psub1-1
+[3.278s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/environment/ament_prefix_path.sh
+[3.278s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/environment/ament_prefix_path.dsv
+[3.280s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/environment/path.sh
+[3.280s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/environment/path.dsv
+[3.280s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/local_setup.bash
+[3.280s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/local_setup.sh
+[3.280s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/local_setup.zsh
+[3.280s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/local_setup.dsv
+[3.281s] -- Symlinking: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/package.dsv
+[3.291s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/ament_index/resource_index/packages/psub1-1
+[3.291s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/cmake/psub1-1Config.cmake
+[3.292s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/cmake/psub1-1Config-version.cmake
+[3.292s] -- Up-to-date symlink: /home/linux/ros2_ws/install/psub1-1/share/psub1-1/package.xml
+[3.294s] Invoked command in '/home/linux/ros2_ws/build/psub1-1' returned '0': CMAKE_PREFIX_PATH=/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/psub1 /usr/bin/cmake --install /home/linux/ros2_ws/build/psub1-1

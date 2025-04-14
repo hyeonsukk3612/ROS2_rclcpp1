@@ -1,0 +1,24 @@
+CMake Warning at CMakeLists.txt:14 (find_package):
+  By not providing "Findament_cmakeREQUIRED.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ament_cmakeREQUIRED", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "ament_cmakeREQUIRED" with any of the following names:
+
+    ament_cmakeREQUIREDConfig.cmake
+    ament_cmakerequired-config.cmake
+
+  Add the installation prefix of "ament_cmakeREQUIRED" to CMAKE_PREFIX_PATH
+  or set "ament_cmakeREQUIRED_DIR" to a directory containing one of the above
+  files.  If "ament_cmakeREQUIRED" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
+CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'rclcppstd_msgs' was
+  not found before
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (ament_target_dependencies)
+
+

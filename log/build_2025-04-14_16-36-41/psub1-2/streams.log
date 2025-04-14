@@ -1,0 +1,71 @@
+[0.014s] Invoking command in '/home/linux/ros2_ws/build/psub1-2': CMAKE_PREFIX_PATH=/home/linux/ros2_ws/install/psub1-1:/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/psub1 /usr/bin/cmake /home/linux/ros2_ws/src/psub1-2 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/psub1-2
+[0.270s] -- The C compiler identification is GNU 9.4.0
+[0.593s] -- The CXX compiler identification is GNU 9.4.0
+[0.756s] -- Check for working C compiler: /usr/bin/cc
+[0.902s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.904s] -- Detecting C compiler ABI info
+[1.075s] -- Detecting C compiler ABI info - done
+[1.086s] -- Detecting C compile features
+[1.087s] -- Detecting C compile features - done
+[1.090s] -- Check for working CXX compiler: /usr/bin/c++
+[1.267s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.268s] -- Detecting CXX compiler ABI info
+[1.457s] -- Detecting CXX compiler ABI info - done
+[1.467s] -- Detecting CXX compile features
+[1.468s] -- Detecting CXX compile features - done
+[1.478s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.502s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.502s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.703s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.890s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.894s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.144s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.416s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.417s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.420s] -- Looking for pthread.h
+[6.588s] -- Looking for pthread.h - found
+[6.589s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.747s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.747s] -- Looking for pthread_create in pthreads
+[6.911s] -- Looking for pthread_create in pthreads - not found
+[6.911s] -- Looking for pthread_create in pthread
+[7.082s] -- Looking for pthread_create in pthread - found
+[7.083s] -- Found Threads: TRUE  
+[7.298s] -- Configuring done
+[7.310s] -- Generating done
+[7.315s] -- Build files have been written to: /home/linux/ros2_ws/build/psub1-2
+[7.323s] Invoked command in '/home/linux/ros2_ws/build/psub1-2' returned '0': CMAKE_PREFIX_PATH=/home/linux/ros2_ws/install/psub1-1:/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/psub1 /usr/bin/cmake /home/linux/ros2_ws/src/psub1-2 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/psub1-2
+[7.327s] Invoking command in '/home/linux/ros2_ws/build/psub1-2': CMAKE_PREFIX_PATH=/home/linux/ros2_ws/install/psub1-1:/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/psub1 /usr/bin/cmake --build /home/linux/ros2_ws/build/psub1-2 -- -j6 -l6
+[7.364s] [35m[1mScanning dependencies of target pub[0m
+[7.364s] [35m[1mScanning dependencies of target sub[0m
+[7.402s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[7.403s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[10.692s] [ 75%] [32m[1mLinking CXX executable pub[0m
+[10.961s] [ 75%] Built target pub
+[12.253s] [100%] [32m[1mLinking CXX executable sub[0m
+[12.558s] [100%] Built target sub
+[12.570s] Invoked command in '/home/linux/ros2_ws/build/psub1-2' returned '0': CMAKE_PREFIX_PATH=/home/linux/ros2_ws/install/psub1-1:/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/psub1 /usr/bin/cmake --build /home/linux/ros2_ws/build/psub1-2 -- -j6 -l6
+[12.583s] Invoking command in '/home/linux/ros2_ws/build/psub1-2': CMAKE_PREFIX_PATH=/home/linux/ros2_ws/install/psub1-1:/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/psub1 /usr/bin/cmake --install /home/linux/ros2_ws/build/psub1-2
+[12.591s] -- Install configuration: ""
+[12.591s] -- Installing: /home/linux/ros2_ws/install/psub1-2/lib/psub1-2/pub
+[12.592s] -- Set runtime path of "/home/linux/ros2_ws/install/psub1-2/lib/psub1-2/pub" to ""
+[12.592s] -- Installing: /home/linux/ros2_ws/install/psub1-2/lib/psub1-2/sub
+[12.595s] -- Set runtime path of "/home/linux/ros2_ws/install/psub1-2/lib/psub1-2/sub" to ""
+[12.595s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/ament_index/resource_index/package_run_dependencies/psub1-2
+[12.596s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/ament_index/resource_index/parent_prefix_path/psub1-2
+[12.596s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/environment/ament_prefix_path.sh
+[12.597s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/environment/ament_prefix_path.dsv
+[12.597s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/environment/path.sh
+[12.597s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/environment/path.dsv
+[12.597s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/local_setup.bash
+[12.598s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/local_setup.sh
+[12.598s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/local_setup.zsh
+[12.598s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/local_setup.dsv
+[12.598s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/package.dsv
+[12.598s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/ament_index/resource_index/packages/psub1-2
+[12.599s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/cmake/psub1-2Config.cmake
+[12.599s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/cmake/psub1-2Config-version.cmake
+[12.599s] -- Installing: /home/linux/ros2_ws/install/psub1-2/share/psub1-2/package.xml
+[12.602s] Invoked command in '/home/linux/ros2_ws/build/psub1-2' returned '0': CMAKE_PREFIX_PATH=/home/linux/ros2_ws/install/psub1-1:/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/psub1 /usr/bin/cmake --install /home/linux/ros2_ws/build/psub1-2

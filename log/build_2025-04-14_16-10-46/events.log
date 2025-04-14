@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (-) JobUnselected: {'identifier': 'pub1'}
+[0.000263] (-) JobUnselected: {'identifier': 'pub1-1'}
+[0.000282] (-) JobUnselected: {'identifier': 'pub1-2'}
+[0.000298] (-) JobUnselected: {'identifier': 'pub1-3'}
+[0.000313] (-) JobUnselected: {'identifier': 'pub2'}
+[0.000328] (-) JobUnselected: {'identifier': 'pub2-1'}
+[0.000342] (-) JobUnselected: {'identifier': 'pub2-2'}
+[0.000356] (-) JobUnselected: {'identifier': 'pub2-3'}
+[0.000370] (-) JobUnselected: {'identifier': 'pub2_3'}
+[0.000565] (psub1) JobQueued: {'identifier': 'psub1', 'dependencies': OrderedDict()}
+[0.000595] (psub1) JobStarted: {'identifier': 'psub1'}
+[0.014180] (psub1) JobProgress: {'identifier': 'psub1', 'progress': 'cmake'}
+[0.015703] (psub1) Command: {'cmd': ['/usr/bin/cmake', '/home/linux/ros2_ws/src/psub1', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/psub1'], 'cwd': '/home/linux/ros2_ws/build/psub1', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'linux'), ('ROS_NAMESPACE', 'robot1'), ('ROS_PACKAGE_PATH', '/home/linux/ros2_ws/install/pub1-1/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/linux'), ('OLDPWD', '/home/linux/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/linux/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/linux/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'linux'), ('NAME', 'car-13'), ('WSL_INTEROP', '/run/WSL/584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/linux/ros2_ws/install/pub1-1/lib/x86_64-linux-gnu/pkgconfig:/home/linux/ros2_ws/install/pub1-1/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/linux/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/PROGRA~1/MATLAB/R2020b/runtime/win64:/mnt/c/PROGRA~1/MATLAB/R2020b/bin:/mnt/c/Program Files/MATLAB/R2020b/runtime/win64:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Elec/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Elec/.dotnet/tools:/mnt/c/opencv/build/x64/vc15/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ProgramData/Elec/GitHubDesktop/bin:/mnt/c/Users/Elec/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', 'cc9a0844-18cc-459d-b404-083be9d8a231'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/home/linux/ros2_ws/install/pub1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/linux/ros2_ws/build/psub1'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099200] (-) TimerEvent: {}
+[0.199569] (-) TimerEvent: {}
+[0.299937] (-) TimerEvent: {}
+[0.399475] (psub1) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.400033] (-) TimerEvent: {}
+[0.500286] (-) TimerEvent: {}
+[0.600644] (-) TimerEvent: {}
+[0.700985] (-) TimerEvent: {}
+[0.801348] (-) TimerEvent: {}
+[0.827605] (psub1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.901491] (-) TimerEvent: {}
+[0.988661] (psub1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.001668] (-) TimerEvent: {}
+[1.102040] (-) TimerEvent: {}
+[1.164362] (psub1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.166734] (psub1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.202194] (-) TimerEvent: {}
+[1.302533] (-) TimerEvent: {}
+[1.333217] (psub1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.344390] (psub1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.345120] (psub1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.349374] (psub1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.402654] (-) TimerEvent: {}
+[1.503005] (-) TimerEvent: {}
+[1.522471] (psub1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.523523] (psub1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.603122] (-) TimerEvent: {}
+[1.697472] (psub1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.703268] (-) TimerEvent: {}
+[1.708483] (psub1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.708990] (psub1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.718878] (psub1) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.748054] (psub1) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.748247] (psub1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.803452] (-) TimerEvent: {}
+[1.903792] (-) TimerEvent: {}
+[1.921270] (psub1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.974376] (psub1) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.003959] (-) TimerEvent: {}
+[2.104234] (-) TimerEvent: {}
+[2.192880] (psub1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.204433] (-) TimerEvent: {}
+[2.207302] (psub1) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.304549] (-) TimerEvent: {}
+[2.404892] (-) TimerEvent: {}
+[2.505212] (-) TimerEvent: {}
+[2.605511] (-) TimerEvent: {}
+[2.705844] (-) TimerEvent: {}
+[2.806147] (-) TimerEvent: {}
+[2.906520] (-) TimerEvent: {}
+[3.006818] (-) TimerEvent: {}
+[3.107105] (-) TimerEvent: {}
+[3.207431] (-) TimerEvent: {}
+[3.307738] (-) TimerEvent: {}
+[3.403801] (psub1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.408036] (-) TimerEvent: {}
+[3.508354] (-) TimerEvent: {}
+[3.608702] (-) TimerEvent: {}
+[3.709066] (-) TimerEvent: {}
+[3.809402] (-) TimerEvent: {}
+[3.909701] (-) TimerEvent: {}
+[4.010034] (-) TimerEvent: {}
+[4.110333] (-) TimerEvent: {}
+[4.210659] (-) TimerEvent: {}
+[4.311054] (-) TimerEvent: {}
+[4.411366] (-) TimerEvent: {}
+[4.511718] (-) TimerEvent: {}
+[4.612071] (-) TimerEvent: {}
+[4.636152] (psub1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.712248] (-) TimerEvent: {}
+[4.812575] (-) TimerEvent: {}
+[4.912905] (-) TimerEvent: {}
+[5.013223] (-) TimerEvent: {}
+[5.113525] (-) TimerEvent: {}
+[5.213854] (-) TimerEvent: {}
+[5.314156] (-) TimerEvent: {}
+[5.414502] (-) TimerEvent: {}
+[5.514846] (-) TimerEvent: {}
+[5.615184] (-) TimerEvent: {}
+[5.715477] (-) TimerEvent: {}
+[5.815852] (-) TimerEvent: {}
+[5.916164] (-) TimerEvent: {}
+[6.016490] (-) TimerEvent: {}
+[6.116787] (-) TimerEvent: {}
+[6.217078] (-) TimerEvent: {}
+[6.317444] (-) TimerEvent: {}
+[6.417807] (-) TimerEvent: {}
+[6.518184] (-) TimerEvent: {}
+[6.618538] (-) TimerEvent: {}
+[6.718872] (-) TimerEvent: {}
+[6.819195] (-) TimerEvent: {}
+[6.826542] (psub1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.919383] (-) TimerEvent: {}
+[6.927269] (psub1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.930635] (psub1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.933208] (psub1) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.019499] (-) TimerEvent: {}
+[7.113341] (psub1) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.113665] (psub1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.119582] (-) TimerEvent: {}
+[7.219859] (-) TimerEvent: {}
+[7.279405] (psub1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[7.279726] (psub1) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[7.320014] (-) TimerEvent: {}
+[7.420316] (-) TimerEvent: {}
+[7.435572] (psub1) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.435891] (psub1) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.520429] (-) TimerEvent: {}
+[7.596706] (psub1) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[7.597768] (psub1) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.620578] (-) TimerEvent: {}
+[7.720931] (-) TimerEvent: {}
+[7.821287] (-) TimerEvent: {}
+[7.865138] (psub1) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.875111] (psub1) StdoutLine: {'line': b'-- Generating done\n'}
+[7.879459] (psub1) StdoutLine: {'line': b'-- Build files have been written to: /home/linux/ros2_ws/build/psub1\n'}
+[7.886754] (psub1) CommandEnded: {'returncode': 0}
+[7.888406] (psub1) JobProgress: {'identifier': 'psub1', 'progress': 'build'}
+[7.888469] (psub1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linux/ros2_ws/build/psub1', '--', '-j6', '-l6'], 'cwd': '/home/linux/ros2_ws/build/psub1', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'linux'), ('ROS_NAMESPACE', 'robot1'), ('ROS_PACKAGE_PATH', '/home/linux/ros2_ws/install/pub1-1/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/linux'), ('OLDPWD', '/home/linux/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/linux/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/linux/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'linux'), ('NAME', 'car-13'), ('WSL_INTEROP', '/run/WSL/584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/linux/ros2_ws/install/pub1-1/lib/x86_64-linux-gnu/pkgconfig:/home/linux/ros2_ws/install/pub1-1/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/linux/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/PROGRA~1/MATLAB/R2020b/runtime/win64:/mnt/c/PROGRA~1/MATLAB/R2020b/bin:/mnt/c/Program Files/MATLAB/R2020b/runtime/win64:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Elec/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Elec/.dotnet/tools:/mnt/c/opencv/build/x64/vc15/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ProgramData/Elec/GitHubDesktop/bin:/mnt/c/Users/Elec/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', 'cc9a0844-18cc-459d-b404-083be9d8a231'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/home/linux/ros2_ws/install/pub1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/linux/ros2_ws/build/psub1'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[7.921459] (-) TimerEvent: {}
+[7.923838] (psub1) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub\x1b[0m\n'}
+[7.924011] (psub1) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sub\x1b[0m\n'}
+[8.021612] (-) TimerEvent: {}
+[8.046301] (psub1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[8.046490] (psub1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[8.121801] (-) TimerEvent: {}
+[8.222238] (-) TimerEvent: {}
+[8.322650] (-) TimerEvent: {}
+[8.423168] (-) TimerEvent: {}
+[8.523538] (-) TimerEvent: {}
+[8.623889] (-) TimerEvent: {}
+[8.724282] (-) TimerEvent: {}
+[8.824677] (-) TimerEvent: {}
+[8.925078] (-) TimerEvent: {}
+[9.025466] (-) TimerEvent: {}
+[9.125850] (-) TimerEvent: {}
+[9.226213] (-) TimerEvent: {}
+[9.326608] (-) TimerEvent: {}
+[9.427149] (-) TimerEvent: {}
+[9.527596] (-) TimerEvent: {}
+[9.628019] (-) TimerEvent: {}
+[9.728415] (-) TimerEvent: {}
+[9.828809] (-) TimerEvent: {}
+[9.929171] (-) TimerEvent: {}
+[10.029579] (-) TimerEvent: {}
+[10.129967] (-) TimerEvent: {}
+[10.230393] (-) TimerEvent: {}
+[10.330802] (-) TimerEvent: {}
+[10.431200] (-) TimerEvent: {}
+[10.531595] (-) TimerEvent: {}
+[10.631976] (-) TimerEvent: {}
+[10.732333] (-) TimerEvent: {}
+[10.832677] (-) TimerEvent: {}
+[10.920677] (psub1) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pub\x1b[0m\n'}
+[10.932830] (-) TimerEvent: {}
+[11.033144] (-) TimerEvent: {}
+[11.133561] (-) TimerEvent: {}
+[11.216653] (psub1) StdoutLine: {'line': b'[ 75%] Built target pub\n'}
+[11.233724] (-) TimerEvent: {}
+[11.334088] (-) TimerEvent: {}
+[11.434428] (-) TimerEvent: {}
+[11.534783] (-) TimerEvent: {}
+[11.635116] (-) TimerEvent: {}
+[11.735469] (-) TimerEvent: {}
+[11.835825] (-) TimerEvent: {}
+[11.936168] (-) TimerEvent: {}
+[12.036559] (-) TimerEvent: {}
+[12.136942] (-) TimerEvent: {}
+[12.237294] (-) TimerEvent: {}
+[12.337651] (-) TimerEvent: {}
+[12.438044] (-) TimerEvent: {}
+[12.538417] (-) TimerEvent: {}
+[12.573394] (psub1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sub\x1b[0m\n'}
+[12.638591] (-) TimerEvent: {}
+[12.738973] (-) TimerEvent: {}
+[12.839358] (-) TimerEvent: {}
+[12.890281] (psub1) StdoutLine: {'line': b'[100%] Built target sub\n'}
+[12.900808] (psub1) CommandEnded: {'returncode': 0}
+[12.902521] (psub1) JobProgress: {'identifier': 'psub1', 'progress': 'install'}
+[12.912125] (psub1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/linux/ros2_ws/build/psub1'], 'cwd': '/home/linux/ros2_ws/build/psub1', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'linux'), ('ROS_NAMESPACE', 'robot1'), ('ROS_PACKAGE_PATH', '/home/linux/ros2_ws/install/pub1-1/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/linux'), ('OLDPWD', '/home/linux/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/linux/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/linux/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'linux'), ('NAME', 'car-13'), ('WSL_INTEROP', '/run/WSL/584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/linux/ros2_ws/install/pub1-1/lib/x86_64-linux-gnu/pkgconfig:/home/linux/ros2_ws/install/pub1-1/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/linux/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/PROGRA~1/MATLAB/R2020b/runtime/win64:/mnt/c/PROGRA~1/MATLAB/R2020b/bin:/mnt/c/Program Files/MATLAB/R2020b/runtime/win64:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Elec/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Elec/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Elec/.dotnet/tools:/mnt/c/opencv/build/x64/vc15/bin:/mnt/c/Users/Elec/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ProgramData/Elec/GitHubDesktop/bin:/mnt/c/Users/Elec/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', 'cc9a0844-18cc-459d-b404-083be9d8a231'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/home/linux/ros2_ws/install/pub1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/linux/ros2_ws/build/psub1'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/linux/ros2_ws/install/pub2_3:/home/linux/ros2_ws/install/pub2-3:/home/linux/ros2_ws/install/pub2-2:/home/linux/ros2_ws/install/pub2-1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1-3:/home/linux/ros2_ws/install/pub1-2:/opt/ros/foxy:/home/linux/ros2_ws/install/pub1-1:/home/linux/ros2_ws/install/pub1'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[12.919507] (psub1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.919935] (psub1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.920758] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/lib/psub1/pub\n'}
+[12.929040] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/lib/psub1/sub\n'}
+[12.937724] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/ament_index/resource_index/package_run_dependencies/psub1\n'}
+[12.939487] (-) TimerEvent: {}
+[12.946518] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/ament_index/resource_index/parent_prefix_path/psub1\n'}
+[12.955289] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/environment/ament_prefix_path.sh\n'}
+[12.963777] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/environment/ament_prefix_path.dsv\n'}
+[12.972200] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/environment/path.sh\n'}
+[12.980592] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/environment/path.dsv\n'}
+[12.988860] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/local_setup.bash\n'}
+[12.997390] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/local_setup.sh\n'}
+[13.005661] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/local_setup.zsh\n'}
+[13.013965] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/local_setup.dsv\n'}
+[13.022242] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/package.dsv\n'}
+[13.030629] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/ament_index/resource_index/packages/psub1\n'}
+[13.039119] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/cmake/psub1Config.cmake\n'}
+[13.039609] (-) TimerEvent: {}
+[13.047543] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/cmake/psub1Config-version.cmake\n'}
+[13.056043] (psub1) StdoutLine: {'line': b'-- Symlinking: /home/linux/ros2_ws/install/psub1/share/psub1/package.xml\n'}
+[13.066673] (psub1) CommandEnded: {'returncode': 0}
+[13.110651] (psub1) JobEnded: {'identifier': 'psub1', 'rc': 0}
+[13.111144] (-) EventReactorShutdown: {}
